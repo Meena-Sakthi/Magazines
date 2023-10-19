@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: verdana;
+}
+.container {
+  background-color: grey;
+}
+.header,
+.navbar,
+.content,
+.footer {
+  width: 100%;
+  /* margin: 10px; */
+}
+.header {
+  background-color: aquamarine;
+  height: 100px;
+  color: blue;
+  font-weight: bolder;
+  position: sticky;
+  top: 0px;
+}
+.navbar {
+  background-color: rgb(219, 225, 38);
+  height: 100px;
+
+  color: rgb(37, 27, 34);
+  position: sticky;
+  top: 100px;
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 20px;
+  line-height: 30px;
+}
+.content {
+  background-color: rgb(185, 127, 255);
+  column: 3;
+  padding: 5px;
+  column-count: 3;
+  column-rule: 4px dotted teal;
+
+  color: #0f0e0d;
+}
+.footer {
+  background-color: tomato;
+  height: 100px;
+  color: crimson;
+}
